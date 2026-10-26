@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#100b15"><meta name="description" content="Я давно хотел сказать тебе кое-что."><title>Для тебя</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600&display=swap" rel="stylesheet"><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script>
+</head><body>
+<div class="ambient" aria-hidden="true"><span></span><span></span><span></span></div>
+<header class="topbar"><span class="wordmark">For you my love</span></header>
+<main>
+<section class="scene scene-envelope is-active" id="scene-envelope" aria-labelledby="envelope-heading"><div class="intro-copy"><p class="eyebrow">Эй, это тебе</p><h1 id="envelope-heading">Я давно хотел<br>сказать тебе кое-что<span class="accent">…</span></h1><p class="subtle">Открой, когда будет минутка.</p></div><button class="envelope-button" id="open-envelope" type="button" aria-label="Открыть письмо"><span class="envelope-glow"></span><span class="envelope" aria-hidden="true"><span class="envelope-back"></span><span class="letter-peek">Для тебя, с любовью</span><span class="envelope-front"></span><span class="envelope-flap"></span><span class="seal">♥</span></span><span class="open-hint">Нажми, чтобы открыть своё письмо <span>♥</span></span></button><p class="scene-note">только для тебя</p></section>
+<section class="scene scene-letter" id="scene-letter" aria-labelledby="letter-heading" aria-hidden="true"><div class="letter-layout"><div class="letter-aside"><p class="eyebrow">мне проще написать, чем сказать</p><h2 id="letter-heading">Моё письмо<br><em>тебе</em></h2><p class="aside-note">Перепиши как угодно. Главное — чтобы это было от тебя.</p><div class="tiny-orbit" aria-hidden="true">✳</div></div><article class="paper"><span class="paper-spark spark-a">✳</span><span class="paper-spark spark-b">✧</span><label class="sr-only" for="love-letter">Текст любовного письма</label><textarea id="love-letter" maxlength="3000" spellcheck="true" aria-describedby="letter-count"></textarea><div class="paper-footer"><span id="letter-count" aria-live="polite">0 слов</span><span>написано сердцем <b>♥</b></span></div></article></div><div class="scene-actions"><button class="text-button" id="back-envelope" type="button">← К конверту</button><button class="primary-button" id="show-galaxy" type="button">Дальше — кое-что важное <span>↗</span></button></div></section>
+<section class="scene scene-galaxy" id="scene-galaxy" aria-labelledby="galaxy-heading"><canvas id="universe" tabindex="0" aria-label="Галактика из слов любви. Перетащи мышью или пальцем, чтобы повернуть; стрелками клавиатуры — тоже."></canvas><div class="galaxy-vignette"></div><div class="galaxy-copy"><p class="eyebrow">эти слова — про нас</p><h2 id="galaxy-heading">Сначала — звёзды.<br><em>Нажми, и появимся мы.</em></h2></div><p class="galaxy-quote">Проведи мышью или пальцем, чтобы повернуть.</p><button class="primary-button galaxy-next" id="show-portrait" type="button">Собрать нас из слов <span>♥</span></button><button class="text-button galaxy-back" id="back-letter" type="button">← Вернуться к письму</button></section>
+<section class="scene scene-portrait" id="scene-portrait" aria-labelledby="portrait-heading"><div class="portrait-stars" aria-hidden="true"></div><div class="portrait-content"><p class="eyebrow">я хотел сохранить этот момент</p><h2 id="portrait-heading">Этот вечер хочется<br>запомнить<span class="accent">.</span></h2><figure class="full-photo-frame"><img id="full-photo" src="assets/our-photo.jpg" alt="Мы вдвоём у воды"></figure><img id="word-portrait-source" src="assets/our-couple.png" alt="" hidden aria-hidden="true"><h3>Я рад, что рядом именно ты.</h3><p class="letter-excerpt" id="letter-excerpt"></p><p class="final-dedication">Я не всегда умею говорить красиво, но это правда: я очень тебя люблю. <span>♥</span></p><div class="love-duration" id="love-duration" hidden><span>Я люблю тебя уже…</span><strong id="duration-value"></strong></div><button class="text-button replay-button" id="restart" type="button">↺ Давай сначала</button></div></section>
+</main><div class="heart-burst" aria-hidden="true"></div>
+</body></html>
+
+
+
+
+
+
+
